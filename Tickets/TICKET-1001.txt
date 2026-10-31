@@ -1,0 +1,41 @@
+HELP DESK SUPPORT TICKET
+
+Ticket ID: TICKET-1001
+User: Sarah
+Department: Finance
+Issue: Connected to Wi-Fi but reports no internet access
+Priority: Medium
+Status: In Progress
+
+INITIAL INVESTIGATION
+- Confirmed Wi-Fi connection.
+- IP address: 192.0.0.2
+- Subnet mask: 255.255.255.255
+- Default gateway: 192.0.0.1
+
+NETWORK TESTING
+- Gateway ping: 100% packet loss.
+- External IP test (1.1.1.1): 4 packets received, 0% packet loss.
+- Average latency: 125.647 ms.
+- DNS test: google.com successfully resolved to 142.250.195.142.
+
+HTTPS TESTING
+- Google returned HTTP/2 301 redirect.
+- Following the redirect returned HTTP/2 200.
+- HTTPS connectivity confirmed for Google.
+
+ADDITIONAL PRACTICE
+- HTTP 403: Access forbidden response observed using HTTPBin.
+- HTTP 500: Internal server error response observed using HTTPBin.
+
+NEXT ACTIONS
+- Confirm the exact company website URL.
+- Obtain the browser error reported by Sarah.
+- Test the affected website.
+- Continue investigation before resolving the ticket.
+
+CURRENT CONCLUSION
+External IP connectivity and DNS resolution were successful
+during testing. The company website has not yet been tested.
+Further investigation is required.
+DNS test: google.com resolved successfully.
