@@ -1,4 +1,4 @@
-WWW.NETWORK TROUBLESHOOTING GUIDE
+NETWORK TROUBLESHOOTING GUIDE
 
 Topic: Connected to Wi-Fi but no internet access
 Purpose: Basic IT support troubleshooting practice
